@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* Styling for the heading */
+        .upper-text {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* Styling for the image gallery container */
+        .lower {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        /* Individual car box */
+        .lower div {
+            width: 180px;
+            border: 1px solid #bbb;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .lower img {
+            width: 100%;
+            height: 200px;
+        }
+
+        /* Hover effect */
+        .lower div:hover {
+            border: 1px solid #777;
+        }
+
+        /* Text color for car names */
+        .text {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <div class="upper">
+        <p class="upper-text">My Car Collection</p>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="lower">
+        <div>
+            <a href="benz.jpeg" target="_blank">
+                <img src="benz.jpeg">
+            </a>
+            <p class="text">BENZ</p>
+        </div>
+        <div>
+            <a href="bmw.jpeg" target="_blank">
+                <img src="bmw.jpeg">
+            </a>
+            <p>BMW</p>
+        </div>
+        <div>
+            <a href="buggati.jpeg" target="_blank">
+                <img src="buggati.jpeg">
+            </a>
+            <p class="text">BUGGATI</p>
+        </div>
+        <div>
+            <a href="dodge.jpeg" target="_blank">
+                <img src="dodge.jpeg">
+            </a>
+            <p>DODGE</p>
+        </div>
+        <div>
+            <a href="ferarri.jpeg" target="_blank">
+                <img src="ferarri.jpeg">
+            </a>
+            <p class="text">FERRARI</p>
+        </div>
+        <div>
+            <a href="porche.jpeg" target="_blank">
+                <img src="porche.jpeg">
+            </a>
+            <p>PORSCHE</p>
+        </div>
+    </div>
+
+</body>
+</html>
